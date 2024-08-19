@@ -31,7 +31,7 @@ let signIn = () => {
 
             setTimeout(() => {
                 window.location.href = 'index.html';
-            }, 1500);
+            }, 1100);
         })
         .catch((error) => {
             const errorCode = error.code;

@@ -28,7 +28,7 @@ let signUp = () => {
       });
       setTimeout(() => {
         window.location.href = 'login.html';
-      }, 1500);
+      }, 1100);
     })
     .catch((error) => {
       console.error('Error during sign-up:', error.message);
